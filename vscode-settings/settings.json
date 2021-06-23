@@ -1,0 +1,263 @@
+{
+    //! VISUAL CONGIGURATION
+
+    "editor.fontFamily": "'Fira Code Retina', 'Cascadia Code', Consolas",
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+    "editor.fontWeight": "500", // Medium
+    "workbench.activityBar.visible": true,
+    "workbench.colorCustomizations": {},
+    "workbench.iconTheme": "material-icon-theme",
+    
+    //! BASIC CONFIGURATION
+
+    "beautify.options": {},
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll": true
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "materialTheme.accent": "Remove accents",
+    "minify.minifyExistingOnSave": true,
+    "miramac.node.showInfo": false,
+    "npm.enableRunFromFolder": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    
+    
+
+    //! BRACKET PAIR COLORIZER
+
+    "bracket-pair-colorizer-2.colors": [
+        "#8BE9FD",
+        "#50FA7B",
+        "#FFB86C",
+        "#FF79C6",
+        "#BD93F9",
+        "#F1FA8C",
+      ],
+      "bracket-pair-colorizer-2.colorMode": "Consecutive",
+      "bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
+      "bracket-pair-colorizer-2.forceIterationColorCycle": false,
+      "bracket-pair-colorizer-2.showBracketsInGutter": true,
+      "bracket-pair-colorizer-2.showBracketsInRuler": true,
+      "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+      "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+      "bracket-pair-colorizer-2.unmatchedScopeColor": "#FF5555",
+
+    //! MATERIAL ICON THEME
+
+    "material-icon-theme.hidesExplorerArrows": true,
+    //"material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.folders.color": "#6273a6",
+
+    //! TERMINAL CONFIGURATION
+   
+    "terminal.explorerKind": "external",
+    "terminal.external.windowsExec": "flute",
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    /*"terminal.integrated.shellArgs.windows": [
+        "/k %USERPROFILE%\\OneDrive\\Programas\\Portables\\Cmder\\vendor\\init.bat"
+        //"/k %USERPROFILE%\\OneDrive\\Programas\\Portables\\Cmder\\vendor\\profile.ps1"
+    ],*/
+
+    //! SYNTHWAVE 84 THEME
+
+    "synthwave84.brightness": 0.6,
+
+    //! CODE RUNNER
+
+    "code-runner.defaultLanguage": "js",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.preserveFocus": false,
+    "code-runner.executorMap": {
+        "python": "python3 -u",
+        "typescript": "npx ts-node --files --transpile-only",
+    },
+    
+    //! LIVE SASS COMPILE
+
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../css"
+        }
+    ],
+    "liveSassCompile.settings.autoprefix": [],
+
+
+    //! LIVE SERVER
+
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+
+
+
+    //! BETTER COMMENTS
+
+    "better-comments.multilineComments": true,
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "¡",
+            "color": "#FFF",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#FF2D00",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "¿",
+            "color": "#FFF",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#3498DB",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "#",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "%",
+            "color": "#00CC00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "&",
+            "color": "#00CC00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+
+    //! PRETTIER FORMAT
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": null,
+        "editor.formatOnSave": true
+    },
+    "prettier.bracketSpacing": true,
+    
+    
+
+    //! COLORIZE
+    
+    "colorize.hide_current_line_decorations": false,
+    "colorize.include": [
+        ".tsx",
+        ".jsx",
+        ".ts",
+        ".js"
+    ],
+    "colorize.languages": [
+        "typescriptreact",
+        "javascriptreact",
+        "javascript",
+        "typescript",
+        "css",
+        "sass",
+        "scss",
+        "less",
+        "pcss",
+        "sss",
+        "stylus",
+        "xml",
+        "svg",
+        "json",
+        "jsonc",
+        "yaml"
+    ],
+    "colorize.colorized_colors": [
+        "HEXA",
+        "RGB",
+        "HSL"
+    ],
+    "colorize.enable_search_variables": false,
+
+
+    //! CSPELL
+
+    "cSpell.enabled": true,
+    "cSpell.language": "en,pt,pt_BR",
+
+
+    //! OTHER CONFIGURATIONS
+    
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "editor.rulers": [],
+    "git.ignoreMissingGitWarning": true,
+    "miramac.node.terminalMode": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "json.maxItemsComputed": 20000,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "spaces-inside-braces.enable": true,
+    "spaces-inside-braces.enableForBrackets": false,
+    "spaces-inside-braces.enableForParens": false,
+    "spaces-inside-braces.enableForAngle": false,
+}
