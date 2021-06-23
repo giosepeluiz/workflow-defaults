@@ -26,7 +26,4 @@ Utilize a [documentação do WSL2](https://docs.microsoft.com/pt-br/windows/wsl/
 
 ### INFORMAÇÕES
 
-**Caso o NVM "quebre" m algum momento, utilize os comandos:**
-`export NVM_DIR="~/.nvm"
-
-source ~/.nvm/nvm.sh`
+Caso o NVM "quebre" m algum momento, utilize os comandos `export NVM_DIR="~/.nvm"` e `source ~/.nvm/nvm.sh`
