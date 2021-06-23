@@ -24,6 +24,8 @@ Utilize a [documentação do WSL2](https://docs.microsoft.com/pt-br/windows/wsl/
 18. Em seguida o comando `echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`
 19. E por fim execute `sudo apt update && sudo apt install --no-install-recommends yarn`
 
-### INFORMAÇÕES
+### SOLUÇÃO DE PROBLEMAS
 
 Caso o NVM "quebre" em algum momento, utilize os comandos `export NVM_DIR="~/.nvm"` e `source ~/.nvm/nvm.sh`
+
+Caso informe que é necessário Node v4 ou superior, abra o arquivo `.bashrc` e ao fina coloque `export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"`
