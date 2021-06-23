@@ -6,6 +6,6 @@
 4. Instale o **Oh My ZSH** com o comando `$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 5. Configure o VSCode no Windows, bem como instale a extensão WSL Remote
 6. No WSL dê um clone em `git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
-7. Depois abra o arquivo **.zshrc** e substitua [por este conteúdo](https://raw.githubusercontent.com/giosepeluiz/default-workflow-configs/main/wsl-dot-zshcr)
+7. Depois abra o arquivo **.zshrc** e substitua [por este conteúdo](./.zshrc)
 
 Editando...
