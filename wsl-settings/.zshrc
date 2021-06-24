@@ -100,3 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias dev="cd ~/Development"
+alias windev="cd '/mnt/d/Users/Arqueiro Verde/OneDrive/Desenvolvimento Web/Treinamento/'"
+alias cfg="source ~/.nvm/nvm.sh"
+alias ystart="source ~/.nvm/nvm.sh; yarn start"
