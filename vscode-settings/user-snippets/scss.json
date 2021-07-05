@@ -1,0 +1,77 @@
+{
+	"BEM SCSS Component Name": {
+		"prefix": "bem-component-name",
+		"body": [
+			"\\$component-name: '$1';",
+			"",
+			".#{\\$component-name} {",
+			"   $2",
+			"}"
+		]
+	},
+
+	"BEM SCSS Layout Name": {
+		"prefix": "bem-layout-name",
+		"body": [
+			"\\$layout-name: '$1';",
+			"",
+			".#{\\$layout-name} {",
+			"   $2",
+			"}"
+		]
+	},
+
+	"Breakpoint < 599px": {
+		"prefix": "breakpoint-1-small-only",
+		"body": [
+			"@include breakpoint('small-only'){",
+			"   $1",
+			"}"
+		]
+	},
+
+	"Breakpoint > 600px": {
+		"prefix": "breakpoint-2-small-up",
+		"body": [
+			"@include breakpoint('small-up'){",
+			"   $1",
+			"}"
+		]
+	},
+
+	"Breakpoint < 899px": {
+		"prefix": "breakpoint-3-medium-only",
+		"body": [
+			"@include breakpoint('medium-only'){",
+			"   $1",
+			"}"
+		]
+	},
+
+	"Breakpoint > 900px": {
+		"prefix": "breakpoint-4-medium-up",
+		"body": [
+			"@include breakpoint('medium-up'){",
+			"   $1",
+			"}"
+		]
+	},
+
+	"Breakpoint < 1199px": {
+		"prefix": "breakpoint-5-large-only",
+		"body": [
+			"@include breakpoint('large-only'){",
+			"   $1",
+			"}"
+		]
+	},
+
+	"Breakpoint > 1200px": {
+		"prefix": "breakpoint-6-large-up",
+		"body": [
+			"@include breakpoint('large-up'){",
+			"   $1",
+			"}"
+		]
+	}
+}
