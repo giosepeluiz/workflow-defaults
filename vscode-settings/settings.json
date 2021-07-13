@@ -87,24 +87,6 @@
         "python": "python3 -u",
         "typescript": "npx ts-node --files --transpile-only",
     },
-    
-    //! LIVE SASS COMPILE
-
-    "liveSassCompile.settings.generateMap": false,
-    "liveSassCompile.settings.formats": [
-
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "~/../css"
-        },
-        {
-            "format": "compressed",
-            "extensionName": ".min.css",
-            "savePath": "~/../css"
-        }
-    ],
-    "liveSassCompile.settings.autoprefix": [],
 
 
     //! LIVE SERVER
@@ -260,4 +242,23 @@
     "spaces-inside-braces.enableForBrackets": false,
     "spaces-inside-braces.enableForParens": false,
     "spaces-inside-braces.enableForAngle": false,
+    "cSpell.userWords": [
+        "aplica",
+        "aplicação",
+        "estados",
+        "o"
+    ],
+
+    //! SASS LIVE COMPILER
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": null
+        }
+    ],
+    
 }
