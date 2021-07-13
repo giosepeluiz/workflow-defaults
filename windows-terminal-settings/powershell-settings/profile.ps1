@@ -188,6 +188,8 @@ if ( $(get-command prompt).Definition -match 'PS \$\(\$executionContext.SessionS
   New-Alias open ii
 
   # Oh-My-Posh Config
-  oh-my-posh --init --shell pwsh --config ~/powerlevel10k_rainbow.omp.json | Invoke-Expression
+  Import-Module posh-git
+  Import-Module oh-my-posh
+  Set-PoshPrompt -Theme powerlevel10k_rainbow
 
 }
