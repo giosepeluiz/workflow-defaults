@@ -18,8 +18,8 @@
       "defaults": {
           "colorScheme": "Seti",
           //"fontFace": "Cascadia Code PL",
-          "fontFace": "MesloLGM Nerd Font",
-          "fontSize": 10,
+          "fontFace": "CaskaydiaCove NF",
+          "fontSize": 11,
           "antialiasingMode": "cleartype",
           "padding": "15, 15, 15, 15",
           "startingDirectory": "%USERPROFILE%"
@@ -332,3 +332,4 @@
   ],
   "windowingBehavior": "useAnyExisting"
 }
+
