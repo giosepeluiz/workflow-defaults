@@ -17,8 +17,9 @@
   {
       "defaults": {
           "colorScheme": "Seti",
-          "fontFace": "Cascadia Code PL",
-          "fontSize": 12,
+          //"fontFace": "Cascadia Code PL",
+          "fontFace": "MesloLGM Nerd Font",
+          "fontSize": 10,
           "antialiasingMode": "cleartype",
           "padding": "15, 15, 15, 15",
           "startingDirectory": "%USERPROFILE%"
