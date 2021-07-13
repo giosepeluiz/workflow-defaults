@@ -12,4 +12,11 @@
 - See the themes: `Get-PoshThemes`
 - Add necesary configurations: `Import-Module oh-my-posh`
 - Test your theme: `Set-PoshPrompt -Theme NAME`
-- Finally, in profile.ps1, define your theme as default: `oh-my-posh --init --shell pwsh --config ~/NAME.omp.json | Invoke-Expression`
+- Finally, in `profile.ps1`, define your theme as default:
+
+```
+  # Oh-My-Posh Config
+  Import-Module posh-git
+  Import-Module oh-my-posh
+  Set-PoshPrompt -Theme powerlevel10k_rainbow
+```
