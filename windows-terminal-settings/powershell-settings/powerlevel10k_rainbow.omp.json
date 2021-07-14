@@ -13,18 +13,12 @@
       "newline": true,
       "segments": [
         {
-          "type": "os",
-          "style": "diamond",
-          "foreground": "#000000",
-          "background": "#d3d7cf",
-          "leading_diamond": ""
-        },
-        {
           "type": "path",
           "style": "powerline",
-          "powerline_symbol": "",
-          "foreground": "#e4e4e4",
-          "background": "#3465a4",
+          "powerline_symbol": "",
+          "invert_powerline": true,
+          "foreground": "#ffffff",
+          "background": "#EE00EE",
           "properties": {
             "prefix": " 📁 ",
             "home_icon": "~",
@@ -165,7 +159,7 @@
           "foreground": "#000000",
           "background": "#c4a000",
           "properties": {
-            "postfix": " \uF252 "
+            "postfix": " 🕒 "
           }
         },
         {
@@ -206,7 +200,7 @@
           "type": "text",
           "style": "diamond",
           "background": "#d3d7cf",
-          "leading_diamond": " ╰─── 🚀",
+          "leading_diamond": " ╰─ 🚀",
           "properties": {
             "prefix": "",
             "postfix": "",
@@ -222,7 +216,7 @@
           "type": "text",
           "style": "diamond",
           "background": "#d3d7cf",
-          "trailing_diamond": " ───╯ ",
+          "trailing_diamond": " ─╯ ",
           "properties": {
             "text": ""
           }
