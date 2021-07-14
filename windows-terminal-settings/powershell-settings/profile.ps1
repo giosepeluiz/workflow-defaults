@@ -162,6 +162,9 @@ if ( $(get-command prompt).Definition -match 'PS \$\(\$executionContext.SessionS
       return " "
   }
 
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+  # SE NÃO ESTIVER USANDO O CMDER, COPIE A PARTIR DAQUI APENAS
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
   # Once Created these code blocks cannot be overwritten
   # if (-not $(get-command PrePrompt).Options -match 'Constant') {Set-Item -Path function:\PrePrompt   -Value $PrePrompt   -Options Constant}
@@ -191,5 +194,7 @@ if ( $(get-command prompt).Definition -match 'PS \$\(\$executionContext.SessionS
   Import-Module posh-git
   Import-Module oh-my-posh
   Set-PoshPrompt -Theme powerlevel10k_rainbow
+  
+  
 
 }
