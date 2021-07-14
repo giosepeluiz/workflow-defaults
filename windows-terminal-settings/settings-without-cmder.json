@@ -40,7 +40,7 @@
         "defaults": 
         {
             "antialiasingMode": "cleartype",
-            "colorScheme": "Seti",
+            "colorScheme": "Dracula",
             "fontFace": "CaskaydiaCove NF",
             "fontSize": 11,
             "useAcrylic": true, 
@@ -108,6 +108,29 @@
             "selectionBackground": "#C1DEFF",
             "white": "#C7C7C7",
             "yellow": "#FFFC58"
+        },
+        {
+            "background": "#13141F",
+            "black": "#323232",
+            "blue": "#43A5D5",
+            "brightBlack": "#323232",
+            "brightBlue": "#43A5D5",
+            "brightCyan": "#8EC43D",
+            "brightGreen": "#8EC43D",
+            "brightPurple": "#8B57B5",
+            "brightRed": "#C22832",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E0C64F",
+            "cursorColor": "#E3BF21",
+            "cyan": "#8EC43D",
+            "foreground": "#CACECD",
+            "green": "#8EC43D",
+            "name": "Dracula",
+            "purple": "#8B57B5",
+            "red": "#C22832",
+            "selectionBackground": "#303233",
+            "white": "#EEEEEE",
+            "yellow": "#E0C64F"
         },
         {
             "background": "#131313",
