@@ -44,7 +44,7 @@
             "fontFace": "CaskaydiaCove NF",
             "fontSize": 11,
             "useAcrylic": true, 
-            "acrylicOpacity": 0.5,
+            "acrylicOpacity": 0.7,
             "padding": "15, 15, 15, 15",
             "startingDirectory": "%USERPROFILE%"
         },
