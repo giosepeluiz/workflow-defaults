@@ -190,10 +190,12 @@ if ( $(get-command prompt).Definition -match 'PS \$\(\$executionContext.SessionS
   # New-Alias <alias> <aliased-command>
   New-Alias open ii
 
-  # Oh-My-Posh Config
-  Import-Module posh-git
-  Import-Module oh-my-posh
-  Set-PoshPrompt -Theme powerlevel10k_rainbow
+  # Oh-My-Posh Optional Config
+  # Import-Module posh-git
+  # Import-Module oh-my-posh
+  
+  # Oh-My-Posh Theme
+  Set-PoshPrompt -Theme NAME
   
   
 
