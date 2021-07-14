@@ -176,7 +176,7 @@
             "error_color": "#cc2222",
             "color_background": true,
             "success_icon": "✔️",
-            "error_icon": "❌"
+            "error_icon": "ERRO!"
           }
         },
         {
@@ -200,8 +200,8 @@
         {
           "type": "text",
           "style": "diamond",
-          "background": "#d3d7cf",
-          "leading_diamond": " 🚀 ❯",
+          "background": "#FEAC19",
+          "leading_diamond": "  🚀 ❯",
           "properties": {
             "prefix": "",
             "postfix": "",
@@ -209,20 +209,6 @@
           }
         }
       ]
-    // },
-    // {
-    //   "type": "rprompt",
-    //   "segments": [
-    //     {
-    //       "type": "text",
-    //       "style": "diamond",
-    //       "background": "#d3d7cf",
-    //       "trailing_diamond": " ─╯ ",
-    //       "properties": {
-    //         "text": ""
-    //       }
-    //     }
-    //   ]
     }
   ],
   "final_space": true,
