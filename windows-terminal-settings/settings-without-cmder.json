@@ -43,6 +43,8 @@
             "colorScheme": "Seti",
             "fontFace": "CaskaydiaCove NF",
             "fontSize": 11,
+            "useAcrylic": true, 
+            "acrylicOpacity": 0.5,
             "padding": "15, 15, 15, 15",
             "startingDirectory": "%USERPROFILE%"
         },
@@ -53,39 +55,6 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true,
                 "name": "Prompt de comando"
-            },
-            {
-                "closeOnExit": "graceful",
-                "commandline": "cmd.exe /k \"%ONEDRIVE%\\Programas\\Portables\\Cmder\\vendor\\init.bat\"",
-                "cursorShape": "vintage",
-                "guid": "{2ccba4a5-a7ff-4a26-98d5-15670b6d7ef2}",
-                "hidden": true,
-                "historySize": 9001,
-                "icon": "%ONEDRIVE%\\Programas\\Portables\\Cmder\\icons\\cmder.ico",
-                "name": "Cmder \ud83e\udc46 Prompt de Comando",
-                "snapOnInput": true
-            },
-            {
-                "closeOnExit": "graceful",
-                "commandline": "powershell.exe -ExecutionPolicy Bypass -NoLogo -NoProfile -NoExit -Command \"Invoke-Expression '. ''%ONEDRIVE%\\Programas\\Portables\\Cmder\\vendor\\profile.ps1'''\"",
-                "cursorShape": "vintage",
-                "guid": "{0507d30f-b369-4113-9125-d18cfc4ca57b}",
-                "hidden": true,
-                "historySize": 9001,
-                "icon": "%ONEDRIVE%\\Programas\\Portables\\Cmder\\icons\\cmder.ico",
-                "name": "Cmder \ud83e\udc46 Windows PowerShell",
-                "snapOnInput": true
-            },
-            {
-                "closeOnExit": "graceful",
-                "commandline": "%ProgramFiles%\\PowerShell\\7\\pwsh.exe -ExecutionPolicy Bypass -NoLogo -NoProfile -NoExit -Command \"Invoke-Expression '. ''%ONEDRIVE%\\Programas\\Portables\\Cmder\\vendor\\profile.ps1'''\"",
-                "cursorShape": "vintage",
-                "guid": "{8623466c-ecf4-498e-895c-14024b6ccf9b}",
-                "hidden": true,
-                "historySize": 9001,
-                "icon": "%ONEDRIVE%\\Programas\\Portables\\Cmder\\icons\\cmder.ico",
-                "name": "Cmder \ud83e\udc46 Windows PowerShell 7",
-                "snapOnInput": true
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -101,11 +70,11 @@
                 "startingDirectory": null
             },
             {
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoLogo",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "Windows PowerShell 7",
-                "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": null
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "guid": "{34a13805-9b56-5e89-9234-f02de44bd971}",
