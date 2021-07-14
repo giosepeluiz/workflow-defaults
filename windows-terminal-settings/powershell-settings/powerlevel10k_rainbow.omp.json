@@ -17,8 +17,8 @@
           "style": "diamond",
           "leading_diamond": "",
           "invert_powerline": true,
-          "foreground": "#ffffff",
-          "background": "#4707a8",
+          "foreground": "#000000",
+          "background": "#D69BFF",
           "properties": {
             "prefix": " 📁 ",
             "home_icon": "~",
@@ -30,15 +30,15 @@
           "style": "powerline",
           "style": "diamond",
           "trailing_diamond": "",
-          "foreground": "#000000",
-          "background": "#4e9a06",
+          "foreground": "#FFFFFF",
+          "background": "#208341",
           "properties": {
             "branch_icon": "\uF126 ",
             "display_stash_count": true,
             "display_upstream_icon": true,
             "status_colors_enabled": true,
-            "local_changes_color": "#c4a000",
-            "ahead_and_behind_color": "#f26d50",
+            "local_changes_color": "#836d0e",
+            "ahead_and_behind_color": "#b94f38",
             "behind_color": "#4e9a06",
             "ahead_color": "#89d1dc",
             "stash_count_icon": "\uF692 "
@@ -160,7 +160,7 @@
           "foreground": "#000000",
           "background": "#c4a000",
           "properties": {
-            "postfix": " 🕒 "
+            "postfix": " ⌛ "
           }
         },
         {
@@ -183,11 +183,11 @@
           "type": "time",
           "style": "diamond",
           "invert_powerline": true,
-          "trailing_diamond": " ",
+          "trailing_diamond": "  ",
           "background": "#d3d7cf",
           "foreground": "#000000",
           "properties": {
-            "postfix": " ⌛ "
+            "postfix": " 🕒 "
           }
         }
       ]
@@ -201,7 +201,7 @@
           "type": "text",
           "style": "diamond",
           "background": "#d3d7cf",
-          "leading_diamond": " ╰─ 🚀",
+          "leading_diamond": " 🚀 ❯",
           "properties": {
             "prefix": "",
             "postfix": "",
@@ -209,20 +209,20 @@
           }
         }
       ]
-    },
-    {
-      "type": "rprompt",
-      "segments": [
-        {
-          "type": "text",
-          "style": "diamond",
-          "background": "#d3d7cf",
-          "trailing_diamond": " ─╯ ",
-          "properties": {
-            "text": ""
-          }
-        }
-      ]
+    // },
+    // {
+    //   "type": "rprompt",
+    //   "segments": [
+    //     {
+    //       "type": "text",
+    //       "style": "diamond",
+    //       "background": "#d3d7cf",
+    //       "trailing_diamond": " ─╯ ",
+    //       "properties": {
+    //         "text": ""
+    //       }
+    //     }
+    //   ]
     }
   ],
   "final_space": true,
