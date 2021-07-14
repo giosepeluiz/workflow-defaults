@@ -14,11 +14,11 @@
       "segments": [
         {
           "type": "path",
-          "style": "powerline",
-          "powerline_symbol": "",
+          "style": "diamond",
+          "leading_diamond": "",
           "invert_powerline": true,
           "foreground": "#ffffff",
-          "background": "#EE00EE",
+          "background": "#4707a8",
           "properties": {
             "prefix": " 📁 ",
             "home_icon": "~",
@@ -28,7 +28,8 @@
         {
           "type": "git",
           "style": "powerline",
-          "powerline_symbol": "",
+          "style": "diamond",
+          "trailing_diamond": "",
           "foreground": "#000000",
           "background": "#4e9a06",
           "properties": {
