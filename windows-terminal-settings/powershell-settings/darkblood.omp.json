@@ -1,0 +1,101 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#00adef",
+          "properties": {
+            "prefix": "<#993399>┏[</>",
+            "postfix": "<#993399>]</>",
+            "text": "🏠"
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "#208341",
+          "properties": {
+            "prefix": "<#993399>[</>",
+            "postfix": "<#993399>]</>"
+          }
+        },
+        {
+          "type": "root",
+          "style": "plain",
+          "foreground": "#ecd500",
+          "properties": {
+            "prefix": "<#993399>[</>",
+            "postfix": "<#993399>]</>"
+          }
+        },
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "<#993399>[</>",
+            "postfix": "<#993399>]</>",
+            "always_enabled": false,
+            "display_exit_code": false,
+            "success_icon": "✔️",
+            "error_icon": "🚨"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "executiontime",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "<#993399>[⌛</>",
+            "postfix": "<#993399>]</>"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "style": "folder",
+            "prefix": "<#993399>[📁</>",
+            "postfix": "<#993399>]</>"
+          }
+        }
+      ]
+    },    
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "<#993399>┖[</>",
+            "postfix": "<#993399>🚀 ❯</>",
+            "text": ""    
+          }
+        }
+      ]
+    }
+  ],
+  "final_space": true
+}
