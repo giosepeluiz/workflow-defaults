@@ -68,6 +68,22 @@
       "alignment": "left",
       "segments": [
         {
+          "type": "node",
+          "style": "plain",
+          "foreground": "#00acd7",
+          "properties": {
+            "prefix": "<#993399>[</>",
+            "postfix": "<#993399>]</>",
+            "display_version": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
           "type": "path",
           "style": "plain",
           "foreground": "#ffffff",
